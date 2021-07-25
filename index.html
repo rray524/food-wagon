@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Wagon</title>
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Top Nav Bar start -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/gallery/logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                <span class="logo-text-one">food</span><span class="logo-text-two">wagon</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <address>
+                    <p class="me-xxl-5"><strong><span class="delivery">Deliver to:</span></strong><i
+                            class="fas fa-map-marker-alt"></i>
+                        Current Location
+                        <strong><span class="location">Mohammadpur Bus Stand, Dhaka</span></strong>
+                    </p>
+                </address>
+                <form class="d-flex" id="search-form">
+                    <div class="input-group flex-nowrap">
+                        <i class="input-group-text fas fa-search" id="addon-wrapping"></i>
+                        <input type="search" class="search-box form-control" placeholder="Search Food"
+                            aria-label="Search-Food" aria-describedby="addon-wrapping">
+                    </div>
+                    <button type="button" class="btn btn-primary login-btn">
+                        <span class="fas fa-user"></span> Login
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Top Nav Bar End -->
+
+    <!-- Slider Bar start -->
+
+    <section class="hero overflow-hidden">
+        <div class="container pt-5">
+            <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 pt-lg-5">
+                <div class="col-12 col-md-12 col-lg-7 pe-lg-5 order-1 order-md-0 mb-5 mb-sm-5">
+                    <h1 class="text-white">Are you starving?</h1>
+                    <p class="my-4">Within a few clicks, find meals that are accessible near you</p>
+                    <ul class="nav nav-tabs px-4 py-4 bg-white rounded-top" id="myTab" role="tablist">
+
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="delivery-tab" data-bs-toggle="tab"
+                                data-bs-target="#home" type="button" role="tab" aria-controls="home"
+                                aria-selected="true"><i class="fas fa-motorcycle"></i>Delivery</button>
+                        </li>
+
+
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pickup-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                                type="button" role="tab" aria-controls="profile" aria-selected="false"><i
+                                    class="fas fa-shopping-bag"></i>Pickup</button>
+                        </li>
+
+                    </ul>
+                    <div class="tab-content px-4 py-4 bg-white rounded-bottom" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="delivery-tab">
+                            <div
+                                class="input-group flex-nowrap align-items-center flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row flex-xxl-row">
+
+                                <i class="fas fa-map-marker input-group-text" id="addon-location"></i>
+                                <input type="text" class="form-control location-address"
+                                    placeholder="Enter Your Address" aria-label="Address"
+                                    aria-describedby="addon-wrapping">
+
+                                <button type="button" class="btn btn-danger order-btn-red"><i
+                                        class="fas fa-search-location"></i>Find
+                                    Food</button>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="pickup-tab">
+                            <div
+                                class="input-group flex-nowrap align-items-center flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row flex-xxl-row">
+
+                                <i class="fas fa-map-marker input-group-text" id="addon-location"></i>
+                                <input type="text" class="form-control location-address"
+                                    placeholder="Enter Your Address" aria-label="Address"
+                                    aria-describedby="addon-wrapping">
+
+                                <button type="button" class="btn btn-danger order-btn-red"><i
+                                        class="fas fa-search-location"></i>Find
+                                    Food</button>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-12 col-lg-5 noodles-area order-0 order-md-1 mt-sm-0 mt-md-3">
+                    <img src="img/gallery/hero-header.png" alt="" class="hero-header">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Slider Bar End -->
+
+    <!-- Food available start -->
+    <Section class="food-available">
+
+    </Section>
+    <!-- Food available End -->
+
+    <!-- System instructions start -->
+    <!-- System instructions End -->
+
+    <!-- Popular items start -->
+    <!-- Popular items End -->
+
+    <!-- Featured items start -->
+    <!-- Featured items End -->
+
+    <!-- Search food start -->
+    <!-- Search food End -->
+
+    <!-- App install bar start -->
+    <!-- App install bar End -->
+
+    <!-- Featured food order start -->
+    <!-- Featured food order End -->
+
+    <!-- CTA start -->
+    <!-- CTA End -->
+
+    <!-- Footer Bar start -->
+    <!-- Footer Bar End -->
+
+    <!-- bootstrap js  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- font-awesome js  -->
+
+    <script src="https://kit.fontawesome.com/6320eb483c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

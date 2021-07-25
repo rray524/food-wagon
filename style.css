@@ -1,0 +1,339 @@
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+/* COMMON CSS */
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ROOT VARIABLE */
+:root{
+    --secondary-font: 'Open Sans', sans-serif;
+    --primary-color: #FFB30E;
+    --secondary-color:#F17228;
+    --font-header-primary-color: #212121;
+    --footer-bg-color: #212121;
+    --h2-normal-fs: 43px;
+    --h2-normal-lh: 48px;
+}
+
+/* TOP BAR CSS */
+.navbar-collapse {
+    flex-grow: 0;
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+    background: #FFFFFF;
+    padding: 20px 0;
+    box-shadow: 0px 5px 10px rgb(255 174 0 / 26%), 0px 20px 40px rgb(255 174 0 / 29%);
+}
+div#navbarTogglerDemo02 {
+    justify-content: space-between;
+}
+i#addon-wrapping {
+    color: var(--primary-color);
+}
+i.fas.fa-map-marker-alt {
+    font-size: 16px;
+    color: var(--primary-color);
+}
+span.logo-text-one {
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 37px;
+    color: var(--secondary-color);
+}
+span.logo-text-two {
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 37px;
+    color: var(--primary-color);
+}
+span.delivery {
+    font-size: 18px;
+    line-height: 18px;
+    color: #424242;
+    margin-right: 12px;
+}
+address{
+    margin: 0;
+}
+address p {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #424242;
+    margin: 0;
+}
+span.location {
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    line-height: 25px;
+    color: #424242;
+}
+button.btn.btn-primary.login-btn {
+    background: #ffffff;
+    box-shadow: 0px 5px 10px rgb(255 174 0 / 26%), 0px 20px 40px rgb(255 174 0 / 29%);
+    border-radius: 8px;
+    border: none;
+    padding: 10px 27px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+input.search-box.form-control::placeholder {
+    color: #424242;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px
+  }
+  i#addon-wrapping {
+    background: transparent;
+    border: none;
+}
+form#search-form .input-group {
+    width: 60%;
+    margin-right: 5px;
+    align-items: center;
+}
+input.search-box.form-control {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 0;
+}
+.show {
+    margin: 1px 0;
+    padding: 18px 0;
+    border-top: 1px solid #e9ecef94;
+}
+.show form#search-form {
+    margin-top: 34px;
+}
+
+input.search-box.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgb(255 179 14 / 25%)
+}
+/* SLIDER CSS */
+section.hero {
+    background-image: url(img/gallery/hero-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+img.hero-header {
+    width: 90%;
+}
+.hero h1 {
+    font-size: 88px;
+    line-height: 88px;
+    font-weight: 700;
+}
+.hero p {
+    font-size: 22px;
+    line-height: 26px;
+    color: #504F4F;
+    font-weight: 400;
+}
+/* .nav-item .input-group {
+    padding: 3px 23px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #F17228;
+    border: 1px transparent;
+    border-radius: 8px!important;
+    background: rgba(241, 114, 40, 0.1);
+}
+.input-group a.nav-link.active {
+    color: #F17228;
+    background: rgba(241, 114, 40, 0.00001);
+    border: none;
+}
+li.nav-item.item-2 .input-group {
+    color: #757575;
+    background: transparent;
+}
+.input-group a.nav-link {
+    color: #757575;
+    background: transparent;
+}
+.nav-link:focus, .nav-tabs .nav-link:hover{
+    border: none;
+} */
+div#home, div#profile {
+    padding: 0;
+    border: none;
+}
+i#addon-location {
+    background: #F5F5F5;
+    color: #FF7474;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+}
+input.form-control.location-address {
+    background-color: rgb(245, 245, 245);
+    border: none;
+    padding: 13px 0px;
+    margin-right: 13px;
+    border-top-right-radius: 5px!important;
+    border-bottom-right-radius: 5px!important;
+}
+input.form-control.location-address::placeholder {
+ font-family: var(--secondary-font);
+ font-size: 18px;
+ line-height: 25px;
+ font-weight: 400;
+}
+input.form-control.location-address:focus{
+    box-shadow: none;
+}
+button.btn.btn-danger.order-btn-red {
+    background: linear-gradient(
+95.71deg
+, #FF7A7A -39.64%, #F75900 135.31%);
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 700;
+    padding: 11px 17px;
+    border: 5px solid #F75900;
+    border-radius: 5px!important;
+}
+button.btn.btn-danger.order-btn-red:focus{
+    box-shadow: none;
+}
+i.fas.fa-search-location {
+    padding-right: 9px;
+}
+button#delivery-tab, button#pickup-tab {
+    font-size: 18px;
+    font-weight: 700;
+    color: #F17228;
+    border: none;
+    font-family: Source sans pro;
+
+}
+button#delivery-tab.active, button#pickup-tab.active {
+    background: rgba(241, 114, 40, 0.1);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+i.fas.fa-motorcycle, i.fas.fa-shopping-bag {
+    padding-right: 10px;
+}
+.noodles-area:hover img {
+    transform: translateY(-2rem);
+    transition: all 0.4s ease;
+}
+img.hero-header {
+    width: 100%;
+   
+}
+.noodles-area img {
+    transform: translateY(3rem);
+}
+/* FOOD AVAILABLE CSS */
+
+
+/* FOOD ORDER INSTRUCTIONS CSS */
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .noodles-area:hover img {
+        transform: none;
+        transition: none;
+    }
+    
+    .noodles-area img {
+        transform: none;
+    }
+    button.btn.btn-primary.login-btn {
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+    input.search-box.form-control::placeholder {
+        font-size: 13px;
+        line-height: 13px
+      }
+    span.location {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    span.delivery {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    address p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    i.fas.fa-map-marker-alt {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 991px){
+    img.hero-header {
+        width: 76%;
+    }
+    .hero h1 {
+        font-size: 69px;
+        line-height: 80px;
+    }
+    .noodles-area {
+        text-align: center;
+    }
+    .noodles-area img {
+        transform: none;
+    }
+    
+    .noodles-area:hover img {
+        transform: none;
+        transition: none;
+    }
+    button.btn.btn-primary.login-btn {
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+    input.search-box.form-control::placeholder {
+        font-size: 13px;
+        line-height: 13px
+      }
+    span.location {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    span.delivery {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    address p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    i.fas.fa-map-marker-alt {
+        font-size: 13px;
+    }
+    button.btn.btn-danger.order-btn-red {
+        width: 100%;
+    }
+    input.form-control.location-address {
+        width: 100%;
+        margin: 0 0 11px 0;
+        padding-left: 8px;
+        border-top-left-radius: 5px!important;
+        border-bottom-left-radius: 5px!important;
+    }
+    i#addon-location {
+        display: none;
+    }
+}
+@media only screen and (max-width: 576px){
+    
+}
+
