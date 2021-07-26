@@ -247,6 +247,8 @@ h5.card-title.f-ab-title {
     bottom: 0;
     background: var(--primary-color);
     display: flex;
+    align-items: center;
+    border-radius: 0 32px 0 10px;
 }
 .numeric p {
     font-size: 68px;
