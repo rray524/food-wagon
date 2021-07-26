@@ -372,6 +372,86 @@ span.carousel-control-next-icon {
     width: 100%;
     
 }
+
+/* Featured Restaurants */
+.feat-restaur-title h2 {
+    font-size: 43px;
+    font-weight: 700;
+    color: var(--font-header-primary-color);
+    line-height: 112%;
+}
+
+img.res-img {
+    width: 100%;
+    border-radius: 8px;
+}
+.offer-box {
+    top: 15px;
+    left: 2%;
+}
+.offer-box span {
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.offer-box-1 {
+    background: #F17228;
+    color: #ffffff;
+    padding: 4px 10px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+.offer-box-2 {
+    background: #FFB30E;
+    color: #ffffff;
+    padding: 4px 10px;
+    border-radius: 8px;
+}
+.res-title-review h3 {
+    color: #424242;
+    font-size: 22px;
+    line-height: 120%;
+    font-weight: 700;
+}
+i.fas.fa-star {
+    color: var(--primary-color);
+    font-size: 22px;
+}
+.star-review span {
+    font-size: 22px;
+    line-height: 120%;
+    color: var(--primary-color);
+}
+.featured-res-box button.btn.btn-info {
+    background: rgba(241, 114, 40, 0.2);
+    border-radius: 16px;
+    font-size: 22px;
+    line-height: 120%;
+    font-weight: 700;
+    color: #F17228;
+    border: none;
+    padding: 6px 20px;
+}
+button.btn.btn-md.btn-success {
+    background: linear-gradient(
+97.86deg
+, #FFBA26 -8.95%, #FF9A0E 109.24%);
+    box-shadow: 0px 5px 10px rgb(255 174 0 / 26%), 0px 20px 40px rgb(255 174 0 / 29%);
+    border-radius: 14px;
+    border: none;
+    padding: 12px 32px;
+    font-size: 18px;
+    font-weight: 700;
+}
+button.btn.btn-md.btn-success a {
+    color: #ffffff;
+    text-decoration: none;
+}
+i.fas.fa-chevron-right {
+    padding-left: 6px;
+    font-size: 15px;
+}
 /* ===========================================
 Mobile Responsive
 ============================================ */
