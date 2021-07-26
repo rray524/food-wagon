@@ -272,6 +272,33 @@ h5.card-title.f-ab-title {
     margin: 0;
 }
 /* FOOD ORDER INSTRUCTIONS CSS */
+section.system-instructions.py-5 {
+    background: linear-gradient(
+180deg
+, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+}
+.service-box img {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+h2.sys-instruc-title {
+    color: #F17228;
+    font-size: var(--h2-normal-fs);
+    line-height: var(--h2-normal-lh);
+    font-weight: 700;
+}
+h3.service-title {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #434343;
+}
+p.service-info {
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #9E9E9E;
+}
 
 /* ===========================================
 Mobile Responsive
