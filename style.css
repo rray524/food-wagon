@@ -452,6 +452,43 @@ i.fas.fa-chevron-right {
     padding-left: 6px;
     font-size: 15px;
 }
+
+/* Search by food css */
+
+section.search-food {
+    background: #FEFAF1;
+}
+.search-food-sec-title h2 {
+    font-size: 43px;
+    font-weight: 700;
+    color: var(--font-header-primary-color);
+    line-height: 112%;
+}
+.view-all-btn a {
+    color: var(--primary-color);
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration: none;
+}
+div#carouselExampleControlsNoTouching img {
+    border-radius: 50%;
+}
+.search-food-item-title h3 {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.search-food button.carousel-control-next {
+    right: 2%;
+    width: 5%;
+}
+.search-food button.carousel-control-prev {
+    left: 87%;
+    width: 5%;
+}
+
 /* ===========================================
 Mobile Responsive
 ============================================ */
@@ -489,6 +526,9 @@ Mobile Responsive
     }
 }
 @media only screen and (max-width: 991px){
+    .carousel-left-right-arrow {
+        display: none;
+    }
     img.hero-header {
         width: 76%;
     }
@@ -549,8 +589,12 @@ Mobile Responsive
     span.carousel-control-prev-icon {
         display: none;
     }
+
 }
 @media only screen and (max-width: 576px){
-    
+    .search-food-sec-title h2 {
+        font-size: 24px;
+        line-height: 85%;
+    }
 }
 
