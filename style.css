@@ -489,6 +489,30 @@ div#carouselExampleControlsNoTouching img {
     width: 5%;
 }
 
+/* Install app css */
+section.install-app {
+    background: url(img/gallery/cta-one-bg.png);
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.special-features-box {
+    padding: 35px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 15px rgba(255, 174, 0, 0.01), 0px 27px 82px rgba(255, 174, 0, 0.28);
+    border-radius: 46px;
+}
+.sp-box h3 {
+    font-size: 35px;
+    background: linear-gradient(92.84deg, #FB3C00 -47.72%, #FFB800 136.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 120%;
+    padding-left: 30px;
+}
+
+
 /* ===========================================
 Mobile Responsive
 ============================================ */
@@ -589,6 +613,10 @@ Mobile Responsive
     span.carousel-control-prev-icon {
         display: none;
     }
+    .special-features-box {
+        padding: 15px 0;
+        border-radius: 22px;
+    }
 
 }
 @media only screen and (max-width: 576px){
@@ -596,5 +624,12 @@ Mobile Responsive
         font-size: 24px;
         line-height: 85%;
     }
+    .border-end {
+        border-right: none!important;
+    }
 }
-
+@media only screen and (min-width: 577px) and (max-width: 767px){
+    .border-end {
+        border-right: none!important;
+    }
+}
