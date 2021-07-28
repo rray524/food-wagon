@@ -511,8 +511,71 @@ section.install-app {
     line-height: 120%;
     padding-left: 30px;
 }
+.install-app h2 {
+    color: rgba(255, 184, 0, 1);
+    font-size: 68px;
+    line-height: 72px;
+}
+.install-app p {
+    color: #827E7E;
+    font-size: 18px;
+    line-height: 27px;
+}
 
-
+/* Food oder css  */
+.food-order .row {
+    border-radius: 16px;
+    -webkit-box-shadow: 0 1rem 4rem rgb(0 0 0 / 18%) !important;
+    box-shadow: 0 1rem 4rem rgb(0 0 0 / 18%) !important;
+}
+.food-order h2 {
+    color: #353535;
+    font-size: 42px;
+    line-height: 112%;
+}
+.food-order p {
+    font-size: 18px;
+    line-height: 140%;
+    font-weight: 600;
+    color: rgba(97, 97, 97, 0.69);
+}
+.food-order button.btn-warning {
+    background: linear-gradient(
+92.84deg
+, #FFB800 -47.72%, #FF8A00 136.81%);
+    box-shadow: 0px 5px 8px rgb(222 151 0 / 24%), 0px 14px 32px rgb(255 178 14 / 29%);
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    width: 100%;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+}
+.food-order img {
+    border-radius: 0 16px 16px 0;
+}
+img.w-100.h-100.sp-img-2 {
+    border-radius: 16px 0 0 16px;
+}
+/* CTA area css */
+section.cta-area {
+    background: url(img/gallery/cta-two-bg.png);
+    background-size: cover;
+}
+button.btn-info.text-uppercase {
+    background: linear-gradient(
+93.41deg
+, #F17228 -5.63%, #F15E28 100.8%);
+    box-shadow: 0px 5px 8px rgb(222 151 0 / 24%), 0px 14px 32px rgb(255 178 14 / 29%);
+    border-radius: 8px;
+    border: none;
+    width: 16%;
+    font-size: 18px;
+    line-height: 120%;
+    padding: 15px;
+}
 /* ===========================================
 Mobile Responsive
 ============================================ */
@@ -616,6 +679,12 @@ Mobile Responsive
     .special-features-box {
         padding: 15px 0;
         border-radius: 22px;
+    }
+    .food-order img {
+        border-radius: 16px 16px 0 0;
+    }
+    img.w-100.h-100.sp-img-2 {
+        border-radius: 16px 16px 0 0;
     }
 
 }
